@@ -1,203 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Website for Techy Software</title>
-    
+    <title>Delight Carreer</title>
+    <!-- Link Slick CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
+    <!-- Link Slick Theme CSS (Optional) -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <!-- Your CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <a href="index.html">
-                <img src="" alt="Your Logo">
-            </a>
-        </div>
-        <div class="nav-toggle" onclick="toggleMenu()">☰</div>
-        <ul class="nav-links">
-            <li><a href="#home-section">Home</a></li>
-            <li><a href="#course-section">Course</a></li>
-            <li><a href="#services-section">Services</a></li>
-            <li><a href="#contact-us-section">Contact Us</a></li>
-        </ul>
-    </nav>
+    <section class="top_nav">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
 
-    <!-- main section -->
-    <div class="topper-section" id="home-section">
-        <img src="images/main.png" alt="Topper Image">
-        <div class="topper-content">
-            <form action="#" method="post">
-                <input type="phone" name="phone" placeholder="Enter your Phone " required>
-                <input type="submit" value="Subscribe" class="btn">
-            </form>
-        </div>
-    </div>
+                </a>
+            </div>
+            <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Carreer Opttion</a>
+                    <div class="dropdown-content">
+                        <a href="pcm.html">PCM</a>
+                        <a href="pcb.html">PCB</a>
+                        <a href="pcb.html">commerce</a>
+                        <a href="pcb.html">Arts</a>
+                </li>
+                </div>
+                </li>
+                <li class="dropdown">
+                    <a href="about.html" class="dropbtn">Certification Courses</a>
+                    <div class="dropdown-content">
+                        <a href="choose.html">why fort international</a>
+                        <a href="visiona.html">vission &mission</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">About US</a></li>
+                <li><a href="contact.html">testimonials</a></li>
 
-    <!-- Course -->
-    <div class="course-section" id="course-section">
-        <h2>Course</h2>
-        <div class="course">
-            <div class="course-card">
-                <!-- <img src="https://plus.unsplash.com/premium_photo-1661775434014-9c0e8d71de03?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlfGVufDB8fDB8fHww" alt="Consultation">
-                <h3>Consultation</h3>
-                <p>Our team advises you free-of-cost on the best possible options of Loan as per your requirements.</p> -->
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="topper-section">
+
+            <div class="topper-content">
+                <h1>Education empowers you to turn
+                    <br>your dreams into reality.
+                </h1>
+                <!-- <p>Education empowers you to turn your dreams into reality.</p> -->
+                <a href="contact.html" class="btn">Contact Us</a>
             </div>
-            <div class="course-card">
-                <!-- <img src="https://media.istockphoto.com/id/1136807674/photo/hes-a-diligent-worker.jpg?s=612x612&w=0&k=20&c=D_gkckb6b9qIFVyv2cKz6Qb3Ui-Bow0kHwAqUNeRDi8=" alt="Documentation / Bank Process">
-                <h3>Documentation</h3>
-                <p>We make the loan application and documentation a hassle-free process for you to save your time and efforts</p> -->
+            <div class="topper-content1">
+                <img src="images/logo.png" alt="Your Logo">
             </div>
-            <div class="course-card">
-                <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais" alt="Disbursal">
-                <h3>Disbursal</h3>
-                <p>We handhold the applicant for the execution of Loan agreements and documentation to GET! SET! GO!</p>
-            </div>
-            <div class="course-card">
-                <!-- <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais" alt="Disbursal">
-                <h3>Disbursal</h3>
-                <p>We handhold the applicant for the execution of Loan agreements and documentation to GET! SET! GO!</p> -->
-            </div>
-            <div class="course-card">
-                <!-- <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais" alt="Disbursal">
-                <h3>Disbursal</h3>
-                <p>We handhold the applicant for the execution of Loan agreements and documentation to GET! SET! GO!</p> -->
-            </div>
-            <!-- <div class="course-card">
-                <!-- <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais" alt="Disbursal">
-                <h3>Disbursal</h3>
-                <p>We handhold the applicant for the execution of Loan agreements and documentation to GET! SET! GO!</p> -->
-            </div> -->
-        </div>
-    </div>
-    <!-- trendy course -->
-    <section class="trendy-section" id="trendy-section">
-        <h2>Trendy Course</h2>
-        <div class="trendy">
-            <div class="trendy-card">
-                <img src="https://plus.unsplash.com/premium_photo-1661775434014-9c0e8d71de03?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlfGVufDB8fDB8fHww" alt="Consultation">
-                <h3>Consultation</h3>
-                <p>Our team advises you free-of-cost on the best possible options of Loan as per your requirements.</p>
-            </div>
-            <div class="trendy-card">
-                <img src="https://plus.unsplash.com/premium_photo-1661775434014-9c0e8d71de03?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlfGVufDB8fDB8fHww" alt="Consultation">
-                <h3>Consultation</h3>
-                <p>Our team advises you free-of-cost on the best possible options of Loan as per your requirements.</p>
-            </div>
-            <div class="trendy-card">
-                <img src="https://media.istockphoto.com/id/1136807674/photo/hes-a-diligent-worker.jpg?s=612x612&w=0&k=20&c=D_gkckb6b9qIFVyv2cKz6Qb3Ui-Bow0kHwAqUNeRDi8=" alt="Documentation / Bank Process">
-                <h3>Documentation</h3>
-                <p>We make the loan application and documentation a hassle-free process for you to save your time and efforts</p>
-            </div>
-            <!-- <div class="trendy-card">
-                <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais" alt="Disbursal">
-                <h3>Disbursal</h3>
-                <p>We handhold the applicant for the execution of Loan agreements and documentation to GET! SET! GO!</p>
-            </div> -->
         </div>
     </section>
-        <!-- Upcoming Exam -->
-        <section class="trendy-section" id="trendy-section">
-            <h2>Upcoming Exam</h2>
-            <div class="trendy">
-                <div class="trendy-card">
-                    <img src="https://plus.unsplash.com/premium_photo-1661775434014-9c0e8d71de03?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlfGVufDB8fDB8fHww" alt="Consultation">
-                    <h3>Consultation</h3>
-                    <p>Our team advises you free-of-cost on the best possible options of Loan as per your requirements.</p>
-                </div>
-                <div class="trendy-card">
-                    <img src="https://plus.unsplash.com/premium_photo-1661775434014-9c0e8d71de03?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlfGVufDB8fDB8fHww" alt="Consultation">
-                    <h3>Consultation</h3>
-                    <p>Our team advises you free-of-cost on the best possible options of Loan as per your requirements.</p>
-                </div>
-                <div class="trendy-card">
-                    <img src="https://media.istockphoto.com/id/1136807674/photo/hes-a-diligent-worker.jpg?s=612x612&w=0&k=20&c=D_gkckb6b9qIFVyv2cKz6Qb3Ui-Bow0kHwAqUNeRDi8=" alt="Documentation / Bank Process">
-                    <h3>Documentation</h3>
-                    <p>We make the loan application and documentation a hassle-free process for you to save your time and efforts</p>
-                </div>
-                <!-- <div class="trendy-card">
-                    <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais" alt="Disbursal">
-                    <h3>Disbursal</h3>
-                    <p>We handhold the applicant for the execution of Loan agreements and documentation to GET! SET! GO!</p>
-                </div> -->
-            </div>
-        </section>
 
+    <!-- Streams -->
+    <section class="services-container" id="services-section">
+        <h2>Career options</h2>
+        <div class="services">
+            <div class="service-card">
+                <img src="https://www.portea.com/static/7e2d9953dbabad6e0c533699ec00ddcb/2049f/hero.webp">
+                <h3>PCB</h3>
+                <p>"Explore the fascinating world of biology with tailored courses for diverse academic backgrounds."
+                </p>
+                <button class="btn btn-primary" onclick="window.location.href='pcb.html'">Learn More</button>
+            </div>
 
-     <!--Videos -->
-     <div class="course-section" id="course-section">
-        <h2>Videos</h2>
-        <div class="course">
-            <div class="course-card">
-                <!-- <img src="https://plus.unsplash.com/premium_photo-1661775434014-9c0e8d71de03?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlfGVufDB8fDB8fHww" alt="Consultation">
-                <h3>Consultation</h3>
-                <p>Our team advises you free-of-cost on the best possible options of Loan as per your requirements.</p> -->
+            <div class="service-card">
+                <img
+                    src="https://sigmauniversity.ac.in/wp-content/uploads/2023/04/Computer-Science-Image-1-2.png">
+                <h3>PCM</h3>
+                <p>"Bridge the gap between science and healthcare with tailored courses for PCM students."</p>
+                <button class="btn btn-primary" onclick="window.location.href='pcm.html'">Learn More</button>
             </div>
-            <div class="course-card">
-                <!-- <img src="https://media.istockphoto.com/id/1136807674/photo/hes-a-diligent-worker.jpg?s=612x612&w=0&k=20&c=D_gkckb6b9qIFVyv2cKz6Qb3Ui-Bow0kHwAqUNeRDi8=" alt="Documentation / Bank Process">
-                <h3>Documentation</h3>
-                <p>We make the loan application and documentation a hassle-free process for you to save your time and efforts</p> -->
+            <div class="service-card">
+                <img src="https://cdn.pixabay.com/photo/2024/02/17/05/33/ai-generated-8578746_1280.jpg"
+                    alt="Disbursal">
+                <h3>Commerce</h3>
+                <p>"Unlock new horizons by blending arts/commerce with interdisciplinary studies."</p>
+                <button class="btn btn-primary" onclick="window.location.href='commerce.html'">Learn More</button>
             </div>
-            <div class="course-card">
-                <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais" alt="Disbursal">
-                <h3>Disbursal</h3>
-                <p>We handhold the applicant for the execution of Loan agreements and documentation to GET! SET! GO!</p>
+            <div class="service-card">
+                <img src="https://w7.pngwing.com/pngs/364/345/png-transparent-government-of-india-civil-services-exam-indian-administrative-service-chief-minister-india-india-world-narendra-modi-thumbnail.png">
+                <h3>Arts</h3>
+                <p>"Unlock new horizons by blending arts/commerce with interdisciplinary studies."</p>
+                <button class="btn btn-primary" onclick="window.location.href='arts.html'">Learn More</button>
             </div>
-            <div class="course-card">
-                <!-- <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais" alt="Disbursal">
-                <h3>Disbursal</h3>
-                <p>We handhold the applicant for the execution of Loan agreements and documentation to GET! SET! GO!</p> -->
-            </div>
-            <div class="course-card">
-                <!-- <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais" alt="Disbursal">
-                <h3>Disbursal</h3>
-                <p>We handhold the applicant for the execution of Loan agreements and documentation to GET! SET! GO!</p> -->
-            </div>
-            <!-- <div class="course-card">
-                <!-- <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais" alt="Disbursal">
-                <h3>Disbursal</h3>
-                <p>We handhold the applicant for the execution of Loan agreements and documentation to GET! SET! GO!</p> -->
-            </div> -->
+
+        </div>
+    </section>
+    <!-- Fort Section -->
+    <!-- testemonial     -->
+    <div class="testimonials-container" id="testimonialsContainer">
+    </div>
+    <div class="arrow-container">
+        <div class="arrow left-arrow" onclick="prevTestimonials()">
+            <span>&#9664;</span>
+        </div>
+        <div class="arrow right-arrow" onclick="nextTestimonials()">
+            <span>&#9654;</span>
         </div>
     </div>
-        <!-- services -->
-        <section class="services-container" id="services-section">
-            <h2>Services</h2>
-            <div class="services">
-                <div class="service-card">
-                    <img src="https://plus.unsplash.com/premium_photo-1661775434014-9c0e8d71de03?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlfGVufDB8fDB8fHww" alt="Consultation">
-                    <h3>Consultation</h3>
-                    <p>Our team advises you free-of-cost on the best possible options of Loan as per your requirements.</p>
-                </div>
-                <div class="service-card">
-                    <img src="https://media.istockphoto.com/id/1136807674/photo/hes-a-diligent-worker.jpg?s=612x612&w=0&k=20&c=D_gkckb6b9qIFVyv2cKz6Qb3Ui-Bow0kHwAqUNeRDi8=" alt="Documentation / Bank Process">
-                    <h3>Documentation</h3>
-                    <p>We make the loan application and documentation a hassle-free process for you to save your time and efforts</p>
-                </div>
-                <div class="service-card">
-                    <img src="https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais" alt="Disbursal">
-                    <h3>Disbursal</h3>
-                    <p>We handhold the applicant for the execution of Loan agreements and documentation to GET! SET! GO!</p>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="index.html">
+                    <img src="Images/logo.png" alt="Delight Carrer">
+                </a>
+                <p>Taggline</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">testimonials</a></li>
+                    <li><a href="#">Carrier Option</a></li>
+                    <li><a href="#">Certification Course</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h4>Contact Information</h4>
+                <p>Phone: +91 </p>
+                <p>Email: </p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/fiapanhala"><img
+                            src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png"
+                            alt="Facebook"></a>
+                    <a href="https://twitter.com/fiapanhala"><img
+                            src="https://seeklogo.com/images/T/twitter-2012-negative-logo-5C6C1F1521-seeklogo.com.png"
+                            alt="Twitter"></a>
+                    <a href="https://www.instagram.com/fiapanhala"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+                            alt="Instagram"></a>
+                    <!-- Add more social media icons and links as needed -->
                 </div>
             </div>
-        </section>
-    <!-- contact us -->
-    <section class="contact-us-section" id="contact-us-section">
-        <!-- Your contact us content goes here -->
-    </section>
+
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-nav-links">
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="index.html">Home</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2023 Grothify. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script src="scripts.js"></script>
-    <script>
-        // Smooth scrolling script
-        document.querySelectorAll('.navbar a').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
 </body>
+
 </html>
